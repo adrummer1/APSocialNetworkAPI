@@ -57,7 +57,7 @@ const userController = {
         }
         res.json(dbUserData);
       })
-      .carch((err) => {
+      .catch((err) => {
         console.log(err);
         res.status(500).json(err);
       });
@@ -99,7 +99,7 @@ const userController = {
       });
   },
 
-  removeFriend(req, res) {
+  deleteFriend(req, res) {
     User.findOneAndUpdate(
       { _id: req.params.userId },
       { $pull: { friends: req.params.friendId } },
