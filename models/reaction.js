@@ -19,7 +19,7 @@ const reactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: (Timestamp) => dayjs('01-25-2023').format('DD/MM/YYYY'),
+            get: () => dayjs().format('MM/DD/YYYY'),
         },
     },
     {
