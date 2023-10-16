@@ -25,4 +25,4 @@ While this is not a deployed application, a user can add and manipulate data in 
 
 ## Video Demonstration
 
-[Here is a link to a video demonstration of the application!](https://drive.google.com/file/d/1cE1dwNNPHDKarHp9CjlLBvJDmTg8eYep/view)
+[Here is a link to a video demonstration of the application!](https://watch.screencastify.com/v/mDs2D9oPZ98muZ3z7kyo)
